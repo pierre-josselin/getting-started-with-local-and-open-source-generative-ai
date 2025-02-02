@@ -1,5 +1,7 @@
 # Guide d'initiation à l'IA générative locale et open source
 
+Ce document est également disponible en [anglais](README.md).
+
 Je ne suis pas un expert de l'intelligence artificielle, simplement quelqu'un de passionné qui par ce guide va tenter de vous aider à appréhender ce saut dans l'inconnu qu'est l'IA open source.
 
 - [Guide d'initiation à l'IA générative locale et open source](#guide-dinitiation-à-lia-générative-locale-et-open-source)
@@ -421,6 +423,10 @@ Toute contribution est bienvenue. Comme précisé au début de ce guide, je ne s
 
 ## Crédits
 
-- `README.fr.md`
+- [Anglais](README.md)
+
+    Traduit automatiquement depuis `README.fr.md`
+
+- [Français](README.fr.md)
 
     Rédigé à la main par Pierre Josselin
