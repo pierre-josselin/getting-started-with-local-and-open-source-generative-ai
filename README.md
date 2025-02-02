@@ -26,7 +26,7 @@ I am not an expert in artificial intelligence, simply someone passionate who thr
     - [The motherboard](#the-motherboard)
     - [Storage](#storage)
     - [Power supply](#power-supply)
-  - [The software](#the-software)
+  - [Software](#software)
     - [The operating system](#the-operating-system)
     - [The graphics card driver](#the-graphics-card-driver)
     - [Open source AI tools](#open-source-ai-tools)
@@ -208,7 +208,7 @@ Some online power supply calculator tools:
 - [Cooler Master](https://www.coolermaster.com/en-eu/power-supply-calculator/) 
 - [PC builds](https://pc-builds.com/power-supply-calculator/) 
 
-## The software 
+## Software 
 
 ### The operating system 
 
