@@ -373,7 +373,8 @@ Lors de la génération de contenu, il est important de garder un oeil sur la co
 
 ### Déployer un chatbot avec une interface similaire à ChatGPT
 
-Voici comment déployer facilement et rapidement une interface similaire à ChatGPT utilisant des modèles open source:
+![Open WebUI](images/open-webui.png)
+*Open WebUI*
 
 1. Télécharger, installer et exécuter [Ollama](https://ollama.com/download)
 2. Télécharger, installer et ouvrir [Pinokio](https://pinokio.computer/)
@@ -397,6 +398,9 @@ Vous pouvez facilement gérer les modèles installés à partir d'une console:
 - `ollama help` pour obtenir la liste complète des commandes
 
 ### Générer des images
+
+![Stable diffusion WebUI](images/stable-diffusion-webui.png)
+*Stable diffusion WebUI*
 
 1. Télécharger, installer et ouvrir [Pinokio](https://pinokio.computer/)
 2. Accéder à la page "Discover" de Pinokio
