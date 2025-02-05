@@ -127,17 +127,17 @@ Always favor recent architectures. Indeed, some tools use technologies that are 
 
 List of NVIDIA architectures (since 2012):
 
-| Name | Year | 
-| ------------ | ----: | 
-| Blackwell | 2024 | 
-| Hopper | 2022 | 
-| Ada Lovelace | 2022 | 
-| Ampere | 2020 | 
-| Turing | 2018 | 
-| Volta | 2017 | 
-| Pascal | 2016 | 
-| Maxwell | 2014 | 
-| Kepler | 2012 | 
+| Name         | Year |
+| ------------ | ---: |
+| Blackwell    | 2024 |
+| Hopper       | 2022 |
+| Ada Lovelace | 2022 |
+| Ampere       | 2020 |
+| Turing       | 2018 |
+| Volta        | 2017 |
+| Pascal       | 2016 |
+| Maxwell      | 2014 |
+| Kepler       | 2012 |
 
 #### Power Consumption 
 
@@ -159,14 +159,14 @@ This is generally the determining factor in choosing a graphics card. This is re
 
 Here is a table comparing the technical characteristics of some graphics cards that are potentially interesting for generative AI. Be careful, however, these are absolutely not recommendations. 
 
-| Name | Memory | Memory type | Performance | Architecture | Consumption | Interface | Price at launch | 
-| -------------------------------- | ------: | --------------- | -----------: | ------------------- | -----------: | --------- | ----------------: | 
-| NVIDIA H100 PCIe 80 GB | 80 GB | HBM2e | 51.22 TFLOPS | Hopper (2022) | 350W | PCIe 5.0 | - | 
-| NVIDIA Tesla P40 | 24 GB | GDDR5 | 11.76 TFLOPS | Pascal (2016) | 250W | PCIe 3.0 | $5699 | 
-| NVIDIA GeForce RTX 5090 | 32 GB | GDDR7 | 104.8 TFLOPS | Blackwell (2024) | 575W | PCIe 5.0 | $1999 |
-| NVIDIA GeForce RTX 4090 | 24 GB | GDDR6X | 82.58 TFLOPS | Ada Lovelace (2022) | 450W | PCIe 4.0 | $1599 | 
-| NVIDIA GeForce RTX 4060 Ti 16 GB | 16 GB | GDDR6 | 22.06 TFLOPS | Ada Lovelace (2022) | 165W | PCIe 4.0 | $499 | 
-| AMD Radeon RX 7900 XTX | 24 GB | GDDR6 | 61.39 TFLOPS | RDNA 3 (2022) | 355W | PCIe 4.0 | $999 | 
+| Name                             | Memory | Memory type |  Performance | Architecture        | Consumption | Interface | Price at launch |
+| -------------------------------- | -----: | ----------- | -----------: | ------------------- | ----------: | --------- | --------------: |
+| NVIDIA H100 PCIe 80 GB           |  80 GB | HBM2e       | 51.22 TFLOPS | Hopper (2022)       |        350W | PCIe 5.0  |               - |
+| NVIDIA Tesla P40                 |  24 GB | GDDR5       | 11.76 TFLOPS | Pascal (2016)       |        250W | PCIe 3.0  |           $5699 |
+| NVIDIA GeForce RTX 5090          |  32 GB | GDDR7       | 104.8 TFLOPS | Blackwell (2024)    |        575W | PCIe 5.0  |           $1999 |
+| NVIDIA GeForce RTX 4090          |  24 GB | GDDR6X      | 82.58 TFLOPS | Ada Lovelace (2022) |        450W | PCIe 4.0  |           $1599 |
+| NVIDIA GeForce RTX 4060 Ti 16 GB |  16 GB | GDDR6       | 22.06 TFLOPS | Ada Lovelace (2022) |        165W | PCIe 4.0  |            $499 |
+| AMD Radeon RX 7900 XTX           |  24 GB | GDDR6       | 61.39 TFLOPS | RDNA 3 (2022)       |        355W | PCIe 4.0  |            $999 |
 
 There are online tools to view and compare the technical specifications of different GPUs: 
 
@@ -303,27 +303,27 @@ To be effective, AI models are trained with huge data sets. The output files are
 
 Here for example are the different quantization methods proposed by [llama.cpp](https://github.com/ggerganov/llama.cpp), in decreasing size, for a 7b model: 
 
-| Name | Size | PPL | Quality | Remarks | Recommended | 
-| ------ | ------ | ------- | ------------------------ | -------------------------------- | ---------- | 
-| F32 | 26.00G | - | Lossless | | No | 
-| F16 | 13.00G | - | Almost lossless | | No | 
-| Q8_0 | 6.70G | +0.0004 | Extremely low loss | | No | 
-| Q6_K | 5.15G | +0.0044 | extremely low loss | | | 
-| Q5_K | - | - | - | Alias ​​for Q5_K_M | | 
-| Q5_K_M | 4.45G | +0.0142 | very low loss | | Yes | 
-| Q5_K_S | 4.33G | +0.0353 | low loss | | Yes | 
-| Q5_1 | 4.70G | +0.0415 | Low loss | Legacy, prefer to use Q5_K_M | | 
-| Q5_0 | 4.30G | +0.0796 | Balanced | Legacy, prefer to use Q4_K_M | | 
-| Q4_K | - | - | - | Alias ​​for Q4_K_M | |
-| Q4_K_M | 3.80G | +0.0535 | Balanced | | Yes | 
-| Q4_K_S | 3.56G | +0.1149 | Significant loss | | | 
-| Q4_1 | 3.90G | +0.1846 | Substantial loss | Legacy, prefer to use Q3_K_L | | 
-| Q4_0 | 3.50G | +0.2499 | very high loss | Legacy, prefer to use Q3_K_M | | 
-| Q3_K_L | 3.35G | +0.1803 | Substantial loss | | | 
-| Q3_K | - | - | - | Alias ​​for Q3_K_M | | 
-| Q3_K_M | 3.06G | +0.2437 | very high loss | | | | 
-Q3_K_S | 2.75G | +0.5505 | very high loss | | | 
-| Q2_K | 2.67G | +0.8698 | Extreme loss | | No | 
+| Name   | Size   | PPL     | Quality            | Remarks                      | Recommended |
+| ------ | ------ | ------- | ------------------ | ---------------------------- | ----------- |
+| F32    | 26.00G | -       | Lossless           |                              | No          |
+| F16    | 13.00G | -       | Almost lossless    |                              | No          |
+| Q8_0   | 6.70G  | +0.0004 | Extremely low loss |                              | No          |
+| Q6_K   | 5.15G  | +0.0044 | Extremely low loss |                              |             |
+| Q5_K   | -      | -       | -                  | Alias ​​for Q5_K_M           |             |
+| Q5_K_M | 4.45G  | +0.0142 | Very low loss      |                              | Yes         |
+| Q5_K_S | 4.33G  | +0.0353 | Low loss           |                              | Yes         |
+| Q5_1   | 4.70G  | +0.0415 | Low loss           | Legacy, prefer to use Q5_K_M |             |
+| Q5_0   | 4.30G  | +0.0796 | Balanced           | Legacy, prefer to use Q4_K_M |             |
+| Q4_K   | -      | -       | -                  | Alias ​​for Q4_K_M           |             |
+| Q4_K_M | 3.80G  | +0.0535 | Balanced           |                              | Yes         |
+| Q4_K_S | 3.56G  | +0.1149 | Significant loss   |                              |             |
+| Q4_1   | 3.90G  | +0.1846 | Substantial loss   | Legacy, prefer to use Q3_K_L |             |
+| Q4_0   | 3.50G  | +0.2499 | Very high loss     | Legacy, prefer to use Q3_K_M |             |
+| Q3_K_L | 3.35G  | +0.1803 | Substantial loss   |                              |             |
+| Q3_K   | -      | -       | -                  | Alias ​​for Q3_K_M           |             |
+| Q3_K_M | 3.06G  | +0.2437 | Very high loss     |                              |             |
+| Q3_K_S | 2.75G  | +0.5505 | Very high loss     |                              |             |
+| Q2_K   | 2.67G  | +0.8698 | Extreme loss       |                              | No          |
 
 https://github.com/ggerganov/llama.cpp/discussions/2094#discussioncomment-6351796 
 

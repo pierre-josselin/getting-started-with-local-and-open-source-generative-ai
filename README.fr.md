@@ -308,21 +308,21 @@ Voici par exemple les différentes méthodes de quantifications proposée par [l
 | F32    | 26.00G | -       | Sans perte               |                                  | Non        |
 | F16    | 13.00G | -       | Pratiquement sans perte  |                                  | Non        |
 | Q8_0   | 6.70G  | +0.0004 | Perte extrêmement faible |                                  | Non        |
-| Q6_K   | 5.15G  | +0.0044 | perte extrêmement faible |                                  |            |
+| Q6_K   | 5.15G  | +0.0044 | Perte extrêmement faible |                                  |            |
 | Q5_K   | -      | -       | -                        | Alias pour Q5_K_M                |            |
-| Q5_K_M | 4.45G  | +0.0142 | très faible perte        |                                  | Oui        |
-| Q5_K_S | 4.33G  | +0.0353 | faible perte             |                                  | Oui        |
+| Q5_K_M | 4.45G  | +0.0142 | Très faible perte        |                                  | Oui        |
+| Q5_K_S | 4.33G  | +0.0353 | Faible perte             |                                  | Oui        |
 | Q5_1   | 4.70G  | +0.0415 | Faible perte             | Legacy, préférer utiliser Q5_K_M |            |
 | Q5_0   | 4.30G  | +0.0796 | Équilibrée               | Legacy, préférer utiliser Q4_K_M |            |
 | Q4_K   | -      | -       | -                        | Alias pour Q4_K_M                |            |
 | Q4_K_M | 3.80G  | +0.0535 | Équilibrée               |                                  | Oui        |
 | Q4_K_S | 3.56G  | +0.1149 | Perte significative      |                                  |            |
 | Q4_1   | 3.90G  | +0.1846 | Perte substantielle      | Legacy, préférer utiliser Q3_K_L |            |
-| Q4_0   | 3.50G  | +0.2499 | perte très élevée        | Legacy, préférer utiliser Q3_K_M |            |
+| Q4_0   | 3.50G  | +0.2499 | Perte très élevée        | Legacy, préférer utiliser Q3_K_M |            |
 | Q3_K_L | 3.35G  | +0.1803 | Perte substantielle      |                                  |            |
 | Q3_K   | -      | -       | -                        | Alias pour Q3_K_M                |            |
-| Q3_K_M | 3.06G  | +0.2437 | perte très élevée        |                                  |            |
-| Q3_K_S | 2.75G  | +0.5505 | perte très élevée        |                                  |            |
+| Q3_K_M | 3.06G  | +0.2437 | Perte très élevée        |                                  |            |
+| Q3_K_S | 2.75G  | +0.5505 | Perte très élevée        |                                  |            |
 | Q2_K   | 2.67G  | +0.8698 | Perte extrême            |                                  | Non        |
 
 https://github.com/ggerganov/llama.cpp/discussions/2094#discussioncomment-6351796
