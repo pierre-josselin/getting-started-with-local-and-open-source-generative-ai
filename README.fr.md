@@ -172,6 +172,7 @@ Il existe des outils en ligne pour visualiser et comparer les caractéristiques 
 
 - [TechPowerUp - GPU Specs Database](https://www.techpowerup.com/gpu-specs/)
 - [Technical City - Classement des cartes graphiques](https://technical.city/fr/video/rating)
+- [TheDataDaddi - GPU Comparison Tool](https://thedatadaddi.com/hardware/gpucomp)
 
 > [!WARNING]  
 > Attention aux pièges! Certaines cartes graphiques peuvent sembler vraiment intéressantes alors qu'elles ne seront peut-être pas adaptées à votre usage. C'est le cas de la Nvidia Tesla K80 24GB qui peut être trouvée pour une centaine d'euros sur internet. Premièrement elle fait partie de l'architecture Kepler qui date de 2012 ce qui est vraiment ancien, et il s'agit en réalité de 2 GPU de 12GB qui ne pourront pas pas être utilisés simultanément par la plupart des outils. Enfin, ce type de carte professionnelle est fourni avec une dissipation thermique passive. Il est essentiel prévoir une ventilation adaptée.

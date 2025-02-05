@@ -172,6 +172,7 @@ There are online tools to view and compare the technical specifications of diffe
 
 - [TechPowerUp - GPU Specs Database](https://www.techpowerup.com/gpu-specs/) 
 - [Technical City - Graphics Card Rankings](https://technical.city/fr/video/rating) 
+- [TheDataDaddi - GPU Comparison Tool](https://thedatadaddi.com/hardware/gpucomp) 
 
 > [!WARNING]   
 > Beware of the traps! Some graphics cards may seem really interesting while they may not be suitable for your use. This is the case of the Nvidia Tesla K80 24GB which can be found for a hundred euros on the internet. Firstly it is part of the Kepler architecture which dates from 2012 which is really old, and it is actually 2 12GB GPUs that will not be able to be used simultaneously by most tools. Finally, this type of professional card comes with passive heat dissipation. It is essential to provide suitable ventilation. 
